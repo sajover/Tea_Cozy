@@ -49,8 +49,8 @@ nav {
   flex-direction: column;
   width: 100%;
 }
-.mission {
-  margin: 30px;
+#mission {
+  margin: 0px 30px 80px 30px;
   display: flex;
   height: 700px;
   background-image: url(/Users/sajover/Documents/Proyectos/Tea_Cozy/resources/images/img-mission-background.jpg);
@@ -58,7 +58,8 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 80px;
+  position: relative;
+  top: 69px;
 }
 
 .title {
@@ -74,11 +75,13 @@ h2,h4 {
   margin: 10px;
 }
 
-.tea {
+#tea {
   display: flex;
   width: 1000px;
   flex-direction: column;
   margin:20px 130px;
+  position: relative;
+
 }
 
 .images {
@@ -103,4 +106,31 @@ h2,h4 {
 }
 .images h4 {
   margin: 0px;
+}
+
+#locations {
+  background-image: url(/Users/sajover/Documents/Proyectos/Tea_Cozy/resources/images/img-locations-background.jpg);
+  height: 500px;
+  text-align: center;
+  padding-top: 70px;
+  width: 1200px;
+  margin: 0px 30px;
+
+}
+.locations {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+
+
+}
+
+.text-content {
+  background-color: black;
+  width: 300px;
+  margin: 15px 40px;
+  flex-shrink: 0;
+}
+h3 {
+  font-weight: bold;
 }
