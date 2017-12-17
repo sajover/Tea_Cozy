@@ -23,6 +23,10 @@ header{
 .logo {
   flex-grow: 1;
   padding: 10px;
+}
+
+span {
+  margin: 10px;
 
 }
 .logo img {
