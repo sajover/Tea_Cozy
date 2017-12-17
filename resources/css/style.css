@@ -78,21 +78,21 @@ h2,h4 {
   display: flex;
   width: 1000px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin:20px 130px;
 }
 
 .images {
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
 
 }
 
 .image-content img {
   height: 200px;
   width: 300px;
+  margin: 10px;
 }
 
 .narrative {
