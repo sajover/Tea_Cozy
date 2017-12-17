@@ -47,8 +47,10 @@ nav {
 .content {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .mission {
+  margin: 30px;
   display: flex;
   height: 700px;
   background-image: url(/Users/sajover/Documents/Proyectos/Tea_Cozy/resources/images/img-mission-background.jpg);
@@ -56,44 +58,49 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 80px;
 }
 
-.narrative {
+.title {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: black;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 h2,h4 {
   margin: 10px;
 }
 
+.tea {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:20px 130px;
+}
+
 .images {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
 }
 
-.image-content{
+.image-content img {
   height: 200px;
   width: 300px;
 }
 
-.image-content.fall {
-  background-image:url(/Users/sajover/Documents/Proyectos/Tea_Cozy/resources/images/img-berryblitz.jpg);
+.narrative {
   display: flex;
-  padding: 0;
-}
-
-.image-content.fall h4 {
-  display: flex;
-  background-color: black;
-  width: 100%;
-  height: 50px;
-  text-align: center;
   align-items: center;
   justify-content: center;
+
+}
+.images h4 {
   margin: 0px;
 }
